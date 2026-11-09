@@ -1,0 +1,11 @@
+# Scraped output stays local. Do not commit databases or exports.
+data/
+exports/
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.csv
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
